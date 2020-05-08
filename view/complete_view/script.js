@@ -19,7 +19,7 @@ function utcToJSTime(utcTime) {
 // データ取得
 function ajaxRequest(lat, long) {
     const url = 'https://api.openweathermap.org/data/2.5/forecast';
-    const appId = '保存しておいたAPI Key';
+    const appId = 'fc61547ccec8ccbc10d938e3712875af';
 
     $.ajax({
         url: url,
@@ -31,7 +31,7 @@ function ajaxRequest(lat, long) {
             lang: 'ja'
         }
     })
-    .done(function(data){
+    .done(function(data) {
         // 都市名、国名
         $('#place').text(data.city.name + ', ' + data.city.country);
 

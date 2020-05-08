@@ -61,10 +61,3 @@ main .container {
     background: url(../images/thermometer.svg) 0 0 no-repeat;
     background-size: 24px 24px;   
 }
-
-/*　ローディングサイン　*/
-#now {
-    background-image: url(../images/loading.gif);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
